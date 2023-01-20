@@ -3,12 +3,22 @@
     {
       "id": 1,
       "names": "json-server",
-      "password": "typicode",
       "loan": "typicode",
       "email": "typicode",
-      "date": "typicode",
-      "dateDue": "typicode" 
+      "picture": ""
+    },
+    {
+      "names": "jess mwangi",
+      "mail": "jess@kmail.com",
+      "amount": "578",
+      "screenshot": {},
+      "id": 2
+    },
+    {
+      "names": "jess",
+      "mail": "jess@kmail.com",
+      "amount": "56677",
+      "id": 3
     }
   ]
-  
 }
