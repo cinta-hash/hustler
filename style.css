@@ -79,22 +79,6 @@ p{
     padding: 4px;
 }
 
-#Passwordbtn{
-    border-radius: 10%;
-    font-family: 'Times New Roman', Times, serif;
-    background-color:hsl(150, 78%, 46%);
-    font-weight: 850;
-    padding: 4px;
-}
-
-#submitloan{
-    border-radius: 10%;
-    font-family: 'Times New Roman', Times, serif;
-    background-color:hsl(150, 78%, 46%);
-    font-weight: 850;
-    padding: 4px;
-}
-
 #loans{
     border: 3px solid #edf03f;
     float:left;
@@ -139,64 +123,7 @@ p{
     font-size: 1rem;
 }
 
-#password{
-    flex: 1 1 0%;
-    background-color: hsl(150, 78%, 46%);
-    padding: 1rem;
-    border-radius: 1rem;
-    margin-right: 1rem;
-    color: darkolivegreen;
-    font-size: 1rem;
-}
-
-#amount{
-    flex: 1 1 0%;
-    background-color: hsl(150, 78%, 46%);
-    padding: 1rem;
-    border-radius: 1rem;
-    margin-right: 1rem;
-    color: darkolivegreen;
-    font-size: 1rem;
-}
-
-#date{
-    flex: 1 1 0%;
-    background-color: hsl(150, 78%, 46%);
-    padding: 1rem;
-    border-radius: 1rem;
-    margin-right: 1rem;
-    color: darkolivegreen;
-    font-size: 1rem;
-}
-
-#dateDue{
-    flex: 1 1 0%;
-    background-color: hsl(150, 78%, 46%);
-    padding: 1rem;
-    border-radius: 1rem;
-    margin-right: 1rem;
-    color: darkolivegreen;
-    font-size: 1rem;
-}
-#savingsbtn{
-    flex: 1 1 0%;
-    background-color: hsl(150, 78%, 46%);
-    padding: 1rem;
-    border-radius: 1rem;
-    margin-right: 1rem;
-    color: darkolivegreen;
-    font-size: 1rem;
-}
-#save{
-    flex: 1 1 0%;
-    background-color: hsl(150, 78%, 46%);
-    padding: 1rem;
-    border-radius: 1rem;
-    margin-right: 1rem;
-    color: darkolivegreen;
-    font-size: 1rem;
-}
-#mail{
+input{
         flex: 1 1 0%;
         background-color: hsl(150, 78%, 46%);
         padding: 1rem;
@@ -205,3 +132,22 @@ p{
         color: darkolivegreen;
         font-size: 1rem;
     }
+
+    #change{
+        flex: 1 1 0%;
+        background-color: hsl(150, 78%, 46%);
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-right: 1rem;
+        color: rgb(7, 7, 6);
+        font-size: 1.5rem;
+
+    }
+#submitAll{
+    border-radius: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:hsl(150, 78%, 46%);
+    font-weight: 850;
+    padding: 10px;
+    border-color: #f1f146;
+}
