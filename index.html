@@ -31,33 +31,28 @@
         <div class="content" id="loans">
             <h4>LOAN INFO</h4>
                     <hr>           
-                  <form action="" onsubmit="addUser(e)">
+                  <form action="" class="form">
                     <label id="mylabel">Your name</label><br><br>
-                    <input type="text" id="names" placeholder="enter firstname and last name..." required/><br><br>     
-
-                    <label id="labeltwo">Your password</label><br><br>
-                    <input type="password" id="password" placeholder="enter your password..."required/><br><br>
+                    <input type="text" name="names" placeholder="enter firstname and last name..." required/><br><br>     
 
                     <label id="labelFive">Your email</label><br><br>
-                    <input type="email" id="mail" placeholder="example@gmail.com" required/><br><br>
+                    <input type="email" name="mail" placeholder="example@gmail.com" required/><br><br>
                     
                     <label id="labelone">Loan Taken</label><br><br>
-                    <input type="number" id="amount" placeholder="amount in Kshs" required/><br><br>     
-                  
-                    <label id="labelthree">Date Taken</label><br><br>
-                    <input type="date" id="date"required/><br><br>  
-                    
-                    <label id="labelfour">Date Due</label><br><br>
-                    <input type="date" id="dateDue" required/><br><br> 
-                    
-                    <button type="button" id="submitAll">submit</button>
+                    <input type="number" name="amount" placeholder="amount in Kshs" required/><br><br>     
+
+                    <button type="submit" id="submitAll">submit</button>
                     <button type="reset" class="resetbtn">RESET</button>
                   </form>
                         <hr>
                       </div>
                       <form id="goal-form">
                       <div id="goals">
-                        <h2>EXPENDITURE</h2>
+                        <h2>INTENTIONS</h2>
+                        <select id="change">
+                          <option value="A">Savings</option>
+                          <option value="B">Expenditure</option>
+                        </select>
                                       <hr>
                         <span class="listone">MY GOALS</span>
                           <hr>
