@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HUSTLER FUND TRACKER</title>
+</head>
+<body>
+  <headers>
+    <center>
+        <h1>HUSTLER FUND TRACKER</h1>
+        <h4>Track your way to Financial Independence!</h4>
+        <a href = "https://www.hustlerfund.go.ke/" target=_blank >
+          <button class="btn0"> about hustler fund</button>
+        </a>
+        <a href = "https://www.hustlerfund.go.ke/terms-and-conditions" target=_blank >
+          <button class="btn1"> Eligibility </button>
+        </a>
+        <a href = "https://www.hustlerfund.go.ke/terms-and-conditions" target=_blank >
+            <button class="btn2"> Registration </button>
+          </a>
+        <hr>
+        <img src="image.src/1.jpeg" alt="hustlerfund" width= 55%;/>
+    </center>
+    <hr>
+  </headers>
+ <main>
+    
+        <div class="content" id="loans">
+            <h4>LOAN INFO</h4>
+                    <hr>           
+                  <form action="" onsubmit="addUser(e)">
+                    <label id="mylabel">Your name</label><br><br>
+                    <input type="text" id="names" placeholder="enter firstname and last name..." required/><br><br>     
+
+                    <label id="labeltwo">Your password</label><br><br>
+                    <input type="password" id="password" placeholder="enter your password..."required/><br><br>
+
+                    <label id="labelFive">Your email</label><br><br>
+                    <input type="email" id="mail" placeholder="example@gmail.com" required/><br><br>
+                    
+                    <label id="labelone">Loan Taken</label><br><br>
+                    <input type="number" id="amount" placeholder="amount in Kshs" required/><br><br>     
+                  
+                    <label id="labelthree">Date Taken</label><br><br>
+                    <input type="date" id="date"required/><br><br>  
+                    
+                    <label id="labelfour">Date Due</label><br><br>
+                    <input type="date" id="dateDue" required/><br><br> 
+                    
+                    <button type="button" id="submitAll">submit</button>
+                    <button type="reset" class="resetbtn">RESET</button>
+                  </form>
+                        <hr>
+                      </div>
+                      <form id="goal-form">
+                      <div id="goals">
+                        <h2>EXPENDITURE</h2>
+                                      <hr>
+                        <span class="listone">MY GOALS</span>
+                          <hr>
+                            <div class="container">
+                              <input 
+                                  type="text"
+                                  id="new-goal-input"
+                                  placeholder="my new goal is" />
+                                <button id="goals">+</button>
+                              <div class="goals" id="goalsContainer"></div>
+                            </div>
+                          </form>      
+       </div>
+     
+ </main>
+  <script src="src/INDEX.JS"></script>  
+</body>
+</html>   

@@ -1,0 +1,207 @@
+*{
+    background-color: rgb(64, 175, 120);
+    
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    color: #0a2716;
+}
+h4{
+    color: rgb(7, 83, 83);
+    font-style: italic ;
+}
+.btn0{
+    border-radius: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:hsl(150, 78%, 46%);
+    font-weight: 850;
+    padding: 10px;
+    border-color: #f1f146;
+}
+
+.btn0:hover
+{
+    background-color:#edf03f;
+}
+.btn1{
+    border-radius: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:hsl(150, 78%, 46%);
+    font-weight: 850;
+    padding: 10px;
+    border-color: #f1f146;
+}
+
+.btn1:hover
+{
+    background-color: #edf03f;
+}
+.btn2{
+    border-radius: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:hsl(150, 78%, 46%);
+    font-weight: 850;
+    padding: 10px;
+    border-color: #f1f146;
+}
+.btn2:hover
+{
+    background-color: #edf03f;
+}
+
+p{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size:1rem;
+    font-weight: 700;
+}
+.user-info{
+    height: 10px;
+    width: 500px;
+    border: 3px solid #edf03f;
+    float:left;
+    margin: 2px;
+    border-radius: 2%;
+}
+#submitbtn{
+    border-radius: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:hsl(150, 78%, 46%);
+    font-weight: 850;
+    padding: 4px;
+}
+
+#Passwordbtn{
+    border-radius: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:hsl(150, 78%, 46%);
+    font-weight: 850;
+    padding: 4px;
+}
+
+#submitloan{
+    border-radius: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:hsl(150, 78%, 46%);
+    font-weight: 850;
+    padding: 4px;
+}
+
+#loans{
+    border: 3px solid #edf03f;
+    float:left;
+    margin: 20px;
+    border-radius: 5%;
+    color: rgb(1, 7, 7);
+    font-weight: 700;
+}
+
+#newGoal{
+    display: flex;
+}
+
+
+#new-goal-input{
+    flex: 1 1 0%;
+    background-color: hsl(150, 78%, 46%);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: darkolivegreen;
+    font-size: 1rem;
+}
+
+.resetbtn{ 
+        border-radius: 10%;
+        font-family: 'Times New Roman', Times, serif;
+        background-color:hsl(150, 78%, 46%);
+        font-weight: 850;
+        padding: 4px;
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#names{
+    flex: 1 1 0%;
+    background-color: hsl(150, 78%, 46%);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: darkolivegreen;
+    font-size: 1rem;
+}
+
+#password{
+    flex: 1 1 0%;
+    background-color: hsl(150, 78%, 46%);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: darkolivegreen;
+    font-size: 1rem;
+}
+
+#amount{
+    flex: 1 1 0%;
+    background-color: hsl(150, 78%, 46%);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: darkolivegreen;
+    font-size: 1rem;
+}
+
+#date{
+    flex: 1 1 0%;
+    background-color: hsl(150, 78%, 46%);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: darkolivegreen;
+    font-size: 1rem;
+}
+
+#dateDue{
+    flex: 1 1 0%;
+    background-color: hsl(150, 78%, 46%);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: darkolivegreen;
+    font-size: 1rem;
+}
+#savingsbtn{
+    flex: 1 1 0%;
+    background-color: hsl(150, 78%, 46%);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: darkolivegreen;
+    font-size: 1rem;
+}
+#save{
+    flex: 1 1 0%;
+    background-color: hsl(150, 78%, 46%);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: darkolivegreen;
+    font-size: 1rem;
+}
+#mail{
+        flex: 1 1 0%;
+        background-color: hsl(150, 78%, 46%);
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-right: 1rem;
+        color: darkolivegreen;
+        font-size: 1rem;
+    }
